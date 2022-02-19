@@ -81,7 +81,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/hero-bg.JPG');
     background-size: cover;
     display: flex;
     justify-content: right;
