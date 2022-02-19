@@ -66,7 +66,7 @@ header nav ul li a {
 }
 
 section {
-    padding: 30px;
+    padding: 10px;
 }
 
 /* Hero Style Start */
@@ -128,7 +128,7 @@ section {
 .step {
     margin: 50px auto;
     padding-bottom: 10px;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -150,6 +150,12 @@ section {
     padding-right: 10px;
 }
 
+.step-text {
+    flex: 12;
+    border-left: 4px solid var(--section-color);
+}
+
+
 .step-text p {
     color: var(--section-color);
     font-size: 16px;
@@ -158,22 +164,31 @@ section {
     text-align: left;
 }
 
-.step-text {
-    flex: 12;
-    border-left: 4px solid var(--section-color);
-}
-
-.step-info{
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
 .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
-    max-width: 30%;
+    max-width: 25%;
     height: auto;
 }
+
+
+/*contact me section style*/
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-around;
+    font-size: 18px;
+    width: 100%;
+}
+.contactinfo a {
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 30px;
+    color: var(--header-color);
+    font-weight: bold;
+    border-bottom: 3px solid var(--section-color);
+}
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
