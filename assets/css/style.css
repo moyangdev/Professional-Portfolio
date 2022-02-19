@@ -1,8 +1,6 @@
 :root {
     --header-color: #31343D;
     --primary-color: #92CCCD;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
     --section-color: #455978;
 }
 
@@ -13,7 +11,6 @@
 }
 
 body {
-    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
     background-color: #EDEDF6;
 }
@@ -68,13 +65,6 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
-}
-
 section {
     padding: 30px;
 }
@@ -104,31 +94,8 @@ section {
 }
   /* HERO STYLES END */
 
-.intro p {
-    line-height: 1.7;
-    color: var(--tertiary-color);
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.section-title {
-    font-size: 48px;
-    color: var(--secondary-color);
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
 .primary-border {
     border-color: var(--primary-color);
-}
-
-.secondary-border {
-    border-color: var(--tertiary-color);
 }
 
 .bio-section {
@@ -178,27 +145,22 @@ section {
 
 .step h3{
     color: var(--section-color);
-    font-size: 3vw;
+    font-size: 30px;
     flex: 1 10%;
-    border-right: 5px solid var(--section-color);
     padding-right: 10px;
 }
 
-.step-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: var(--secondary-color);
-}
-
 .step-text p {
-    color: var(--tertiary-color);
-    font-size: 18px;
+    color: var(--section-color);
+    font-size: 16px;
     padding-left: 30px;
+    padding-right: 10px;
     text-align: left;
 }
 
 .step-text {
     flex: 12;
+    border-left: 4px solid var(--section-color);
 }
 
 .step-info{
@@ -206,6 +168,11 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 30%;
+    height: auto;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
