@@ -23,7 +23,7 @@ THEN I am presented with a responsive layout that adapts to my viewport<br />
 
 <b>Mock-Up:</b><br />
 The following animation shows the web application's appearance and functionality:
-![image](https://user-images.githubusercontent.com/98504854/154826031-4c1f205f-9f6f-4339-ac41-03b084635111.png)
+![02-advanced-css-homework-demo](https://user-images.githubusercontent.com/98504854/154826198-9ca79b6a-84d1-4e42-b688-45474bc690dc.gif)
 
 <b>Link to deployed application:</b><br />
 https://moyangdev.github.io/Professional-Portfolio/
