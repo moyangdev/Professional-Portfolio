@@ -165,14 +165,14 @@ section {
     text-align: left;
 }
 
-.img-responsive, .thumbnail a>img, .thumbnail>img {
+.img-responsive {
     display: block;
     max-width: 20%;
     height: auto;
 }
 
 
-/*contact me section style*/
+/* contact me section style */
 .contactinfo {
     display: flex;
     flex-wrap: wrap;
@@ -191,7 +191,7 @@ section {
 }
 
 
-/*********MY-WORK**********/
+/* work section style */
 .grid-work-container {
     display: grid;
     height: 80vh;
@@ -258,6 +258,10 @@ section {
     color: var(--section-color);
 }
 
+/* hover over effect on pictures */
+.grid-item:hover {
+    opacity: 0.6;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
